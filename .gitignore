@@ -1,0 +1,55 @@
+# Sensitive configuration files
+html/api/config.php
+
+# Environment variables
+.env
+.env.local
+.env.production
+
+# Logs
+*.log
+error_log
+access_log
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+*~
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+*.bak
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# PHP
+vendor/
+composer.lock
+
+# Node modules (if using any build tools)
+node_modules/
+
+# Docker volumes
+data/
+mysql-data/
+
+# Backup files
+*.sql.backup
+*.sql.gz
+backup/
+
+# User uploads (if any)
+html/uploads/
+html/user_files/
